@@ -1,92 +1,41 @@
-body {
-    margin: 0 auto;
-    background-color: rgb(245, 236, 224);
-}
-.booklist-form {
-    max-width: 1340px;
-    display: inline;
-}
 .container {
-    max-width: 1140px;
-    margin: 0 auto;
-}
-svg {
-    max-width: 80px;
-    fill: #34a5f7;
-}
-.blue-color {
-    color: #34a5f7;
-}
-.open-book {
-    display: flex;
-    flex-wrap: wrap;
+    width: 50%;
+    margin: auto;
     justify-content: center;
-    align-items: center;
-    margin-bottom: 10px;
-    margin-top: 10px;
-}
-h1 {
-    font-size: 48px;
-    margin-left: 12px;
-}
-.form-group {
-    margin-top: 18px;
-
-}
-.form-control {
-    margin-top: 8px;
-    width: 100%;
-    min-height: 28px;
-    border: 1px solid rgb(161, 159, 159);
-    border-radius: 3px;
-}
-.btn {
-    background-color: #34a5f7;
-    color: white;
+    vertical-align: center;
+    background-color: antiquewhite;
+    padding-top: 20px;
+    padding-bottom: 20px;
     margin-top: 20px;
-    width: 100.5%;
-    font-size: 20px;
-    min-height: 36px;
-    border-radius: 3px;
-    border: 1px solid rgb(161, 159, 159);
-}
-.table {
-    margin-top: 60px;
-    text-align: left;
-    font-size: 20px;
-}
-th {
-    min-width: 350px;
-    padding-bottom: 18px;
-}
-label {
-    font-size: 18px;
 }
 
-.success,
-.error {
-    color: white;
-    padding: 5px;
-    font-size: 20px;
-    font-weight: bold;
+h1 {
     text-align: center;
-    border: 1px solid rgb(243, 143, 143);
-    border-radius: 5px;
+    font-size: 30px;
+}
+
+form {
+    width: 90%;
+    margin: auto;
+    
     
 }
 
-.success {
-    background-color: green;
+label{
+    width: 90%;
+} 
+
+input {
+    width: 100%;
 }
 
-.error {
-    background-color: red;
+table {
+    width: 100%;
+    text-align: center;
+    
 }
-.delete {
+ 
+a {
+    color: black;
     text-decoration: none;
-    color: white;
-    background-color: rgb(243, 45, 45);
-    font-weight: bold;
-    font-size: 24px;
-    padding: 1px;
 }
